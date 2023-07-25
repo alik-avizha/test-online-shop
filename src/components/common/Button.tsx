@@ -1,6 +1,6 @@
-import React, {ChangeEvent} from 'react';
-import basket from "../../assets/img/basket.png";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
+
 type PropsType={
     title?:string,
     callBack?:()=>void
@@ -42,7 +42,4 @@ const StButton = styled.button<ButtonType>`
     img{
       width: 32px;
     }
-`
-const StImg = styled.img`
-    
 `
