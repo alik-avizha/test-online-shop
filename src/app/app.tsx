@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {Route, Routes} from 'react-router-dom';
-import {Basket} from '../components/features/basket/Basket';
+import {Basket} from '../components/features/basket/basket';
 import {GoodsList} from '../components/features/goods-list/goods-list';
 import {goodsThunks} from './goods-slice';
 import {Header} from '../components/features/header/Header';

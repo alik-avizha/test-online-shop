@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import {ReduxStoreProviderDecorator} from '../../../common/decorators/reduxStoreProviderDecorator';
-import {Basket} from './Basket';
+import {Basket} from './basket';
 
 
 const meta = {
