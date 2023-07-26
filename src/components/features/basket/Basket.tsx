@@ -30,6 +30,7 @@ export const Basket = () => {
         dispatch(goodsActions.deleteGoods({goodsId: id}))
     }
 
+    const disableSendButton = !(data.email && data.surname && data.address && data.phone) && data.goods.length > 0
     function onChangeHandler({target: {value, id}}: ChangeEvent<HTMLInputElement>) {
         setData({
             ...data,
@@ -82,7 +83,7 @@ export const Basket = () => {
                         <TextField value={data.surname} label="Surname" variant="standard" id={'surname'} onChange={onChangeHandler}/>
                         <TextField value={data.address} label="Address" variant="standard" id={'address'} onChange={onChangeHandler}/>
                         <TextField value={data.phone} label="Phone" variant="standard" id={'phone'} onChange={onChangeHandler}/>
-                        <TextField variant="outlined" type={'submit'} onClick={sendData}/>
+                        <TextField disabled={disableSendButton} variant="outlined" type={'submit'} onClick={sendData}/>
                     </OrderWrapper>
                 </Paper>
             </CardWrapper>
