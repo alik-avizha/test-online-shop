@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import styled from 'styled-components';
 import {useDispatch} from 'react-redux';
-import {goodsActions, GoodsType} from '../../../bll/goods-slice';
+import {goodsActions, GoodsType} from '../../../../app/goods-slice';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 

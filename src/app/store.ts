@@ -1,6 +1,6 @@
 import {combineReducers, configureStore, ThunkDispatch} from '@reduxjs/toolkit';
 import {goodsSlice} from './goods-slice';
-import {loadState, saveState} from './local-storage-utils';
+import {loadState, saveState} from '../common/utils/local-storage-utils';
 import {useDispatch} from 'react-redux';
 
 

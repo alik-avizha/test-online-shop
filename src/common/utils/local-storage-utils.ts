@@ -1,4 +1,4 @@
-import {AppRootType} from './store';
+import {AppRootType} from '../../app/store';
 
 export const loadState = () => {
     try {

@@ -1,7 +1,7 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 import {get, push, ref, set} from 'firebase/database';
-import {createAppAsyncThunk} from './create-async-thunk';
-import {db} from '../dal/api';
+import {createAppAsyncThunk} from '../common/utils/create-async-thunk';
+import {db} from '../common/api/api';
 
 export type GoodsType = {
     id: string

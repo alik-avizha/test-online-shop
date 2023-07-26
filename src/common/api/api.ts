@@ -14,6 +14,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 
-// Теперь задайте тип объекта db как FirebaseDatabase
-
 export const db = getDatabase(app);

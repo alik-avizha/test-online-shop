@@ -1,13 +1,13 @@
 import React, {ChangeEvent, useState} from 'react';
 import {useSelector} from 'react-redux';
-import {goodsSelect} from '../../../bll/selectors';
+import {goodsSelect} from '../../../app/selectors';
 import styled from 'styled-components';
-import {goodsActions, goodsThunks} from '../../../bll/goods-slice';
+import {goodsActions, goodsThunks} from '../../../app/goods-slice';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
-import {useAppDispatch} from '../../../bll/store';
+import {useAppDispatch} from '../../../app/store';
 
 
 export const Basket = () => {

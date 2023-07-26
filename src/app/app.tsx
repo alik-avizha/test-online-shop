@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
-import {Header} from './components/features/Header/Header';
 import {Route, Routes} from 'react-router-dom';
-import {Basket} from './components/features/Goods-List/Basket';
-import {GoodsList} from './components/features/Goods-List/Goods-list';
-import {goodsThunks} from './bll/goods-slice';
+import {Basket} from '../components/features/basket/Basket';
+import {GoodsList} from '../components/features/goods-list/goods-list';
+import {goodsThunks} from './goods-slice';
+import {Header} from '../components/features/header/Header';
 
 
 function App() {

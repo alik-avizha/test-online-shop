@@ -22,6 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/src/dal/api.ts
+/src/common/api/api.ts
 
 /.idea

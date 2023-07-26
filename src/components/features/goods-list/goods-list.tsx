@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {useSelector} from 'react-redux';
-import {goodsSelect} from '../../../bll/selectors';
-import {CardGood} from './Card';
+import {goodsSelect} from '../../../app/selectors';
+import {CardGood} from './card/card';
 import styled from 'styled-components';
 
 
