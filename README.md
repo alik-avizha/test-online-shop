@@ -68,15 +68,3 @@ const db = getFirestore(firebaseApp);
 export { db };
 Replace the placeholders (YOUR_API_KEY, YOUR_AUTH_DOMAIN, etc.) with your actual Firebase project credentials.
 
-Contributing
-Feel free to contribute to this project by creating issues or submitting pull requests.
-
-License
-This project is open-source and available under the MIT License.
-
-Author
-Author: Your Name
-
-Version
-0.1.0
-
